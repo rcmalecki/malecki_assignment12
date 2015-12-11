@@ -1,0 +1,51 @@
+* { 
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding:0;
+	position:center;
+}
+
+h1{
+	font-size:1.8em;
+}
+
+h2{
+	font-size:1em;
+}
+
+header {
+	float:left;
+	width:20%;
+}
+
+#nav li {
+	list-style:none;
+	margin:40px;
+}
+
+button {
+	background-color:#104E8B;
+	color:#ffffe5;
+	height:70px;
+	border-radius:10px;
+	font-size:100%;
+	Width:200px;
+	padding:10px;
+	line-height:1.4em;
+}
+
+.recipe {
+	background-color:#ffffe5;
+	color:#104E8B;
+	width:700px;
+	padding:10px 30px;
+	margin:50px 50px 10px 30%;
+	border-radius:20px;
+	border:solid #104E8B thin;
+}
+
